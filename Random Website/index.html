@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Rick, Morty, Nice, Rick and Morty, Only Rick and Morty">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <style>
+            body, html {
+                height: 75%;
+                margin: 0;
+            }
+    
+            .background {
+                background-image: url("https://pyxis.nymag.com/v1/imgs/cd8/804/e0f612fa12d17e68e3d68ccf55f93cac4f-06-rick-morty.jpg");
+    
+                padding-top: 500px;
+    
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+    
+            }
+    
+           </style>
+    </head>
+    <title>
+       Home
+    </title>
+    <body>
+        <div class="resnav" id="myResNav">
+            <a href="index.html" class="active">Home</a>
+            <a href="games.html">Games</a>
+            <a href="info.html">Info</a>
+            <a href="apply.html">Apply</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="https://www.adultswim.com/videos/rick-and-morty">Watch Rick</a>
+        </div>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myResNav");
+                if (x.className === "resnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "resnav";
+                }
+            }
+         </script>
+
+         <div class= "container">
+            <div class="background">
+                <h1 id="text" style="color: black; font-family: fantasy;">Nice day today Morty?</h1>
+            </div>
+
+            <hr>
+
+            <div class="img1">
+                <img src="https://cdn.mos.cms.futurecdn.net/kYmZBPCuov6uQTy5vPN93G-1200-80.jpg" width="500px">
+                <p class="text1" style="color: white; font-family: fantasy;">
+                    This is actual food. This would nourish you! <br>
+                    And this, it's just paper that only has value to me... Unless my suffering is your nourishment?
+                </p>
+                
+           </div>
+
+            <hr>
+           
+            <div class="footer">
+                <h2 class="footer-header" style="font-family: fantasy;">
+                    More From Rick and Morty
+                </h2>
+    
+                <p class="footer-text-left">
+        
+                    <a href="https://twitter.com/RickandMorty?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" style="border: none;">
+                        <i class="fa fa-twitter" style="color: white; font-size: 48px;"></i>
+                   </a> 
+    
+                   <a href="https://www.facebook.com/RickandMorty/?locale=en_GB" style="border: none;">
+                    <i class="fa fa-facebook" style="color: white; font-size: 48px;"></i>
+                   </a> 
+    
+                   <a href="https://www.instagram.com/rickandmorty/" style="border: none;">
+                    <i class="fa fa-instagram" style="color: white; font-size: 48px;"></i>
+                   </a> 
+    
+                    <a href="index.html" class="menu">Home</a>
+                    <a href="info.html">Info</a>
+                    <a href="games.html">Games</a>
+                    <a href="apply.html">Apply</a>
+                    <a href="contact.html" style="word-spacing: 0px;">Contact Us</a>
+                    <a href="https://www.adultswim.com/videos/rick-and-morty" style="word-spacing: 0px;">Rick's Website</a>
+                </p>
+
+                 
+                <p class="footer-copyright">Copyright <i class="fa fa-copyright"></i> 2023 Rick And Morty</p>
+        
+            </div>
+        </div>
+    </body>
+</html>
